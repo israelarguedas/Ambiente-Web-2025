@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    /*width: 100vw;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://th.bing.com/th/id/OIP.Keh5gHe540vOzNCb-PgvaAHaNK?w=115&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3');
+}
+
+.login-container{
+    width: 400px;
+    /*height: 400px;*/
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(182, 182, 180, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.labels {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputs {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#form div { /*Aplica estilos a todos dentro del <form>. Aplica a todos los niveles, pero se puede especificar form > div para q sea solo un nivel*/
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logo-container{
+    width: 100%;
+}
+
+.logo-container img{
+    width: 80px;
+}
