@@ -1,0 +1,38 @@
+* {
+    background-color: rgb(177, 233, 214);
+    color: black;
+
+}
+
+.color_verde {
+    color:rgb(102, 161, 102)
+}
+
+#subtitulo {
+    font-size: 10px;
+}
+
+#estilos {
+    border:5px solid blue;
+    border-color:blueviolet;
+    border-width: 2px;
+    /*border-style*/
+    padding:10px;
+    padding: 5px 10px 5px 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 50px;
+}
+
+.main{
+    width: 600px;
+}
+
+.content {
+    height:auto;
+    width: 9ch;
+    padding:10px;
+    margin: 0 auto;
+}
